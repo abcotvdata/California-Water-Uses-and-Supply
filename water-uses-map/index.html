@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ABC7 - California Water Uses Map</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<!-- CSS stylesheets -->	
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <div class="title">
+    	<div class="headline">
+    		HOW IS WATER USED IN CALIFORNIA REGIONS?
+    	</div>
+    </div>
+
+    <div class="chatter">
+    	<p>In <span class="emph region-name">California</span>, the majority of water is used for <span class="emph majority-use">agriculture</span>.</p>
+    	<p> About <span class="emph pct-majority-use">45%</span> of the roughly <span class="emph total-water-use">76,000</span> thousand acre-feet of water used on average between 2008 and 2018, the most recent 10 years available, was used for <span class="emph majority-use">agriculture</span>.</p>
+    	<p>Click on an area on the map below to see a further breakdown of water uses</p>
+    </div>
+
+    <div class="subheadline"><span style="color: #00318b"> ENVIRONMENTAL</span> USES, <span style="color: #ffba00">AGRICULTURE</span> USES, AND <span style="color: #667f99">URBAN</span> USES</div>
+
+    <div class="container">
+
+		<div class="graphics">
+			<div class="map">
+				<img src="img/California-01.png">
+				<div class="labels">
+				</div>
+				<div class="backtoca"><p>See statewide water use breakdown</p></div>
+			</div>
+
+			<div class="chart">
+				<div class="chart-title">
+					<h3><span class="region-name-title">CALIFORNIA</span> WATER USE BREAKDOWN</h3>
+					<p>Click on one of the innner sections to see a further breakdown.</p>
+				</div>
+
+				<div class="responsive">
+					<iframe src="plots/fig_California.html" frameBorder="0"></iframe>
+				</div>
+
+				<div class="x"><img src="img/x.png"></div>
+
+			</div>
+			
+			
+		</div>
+
+    </div>
+
+    <div class="source">
+    	Note: Does not include 2017 data, which was not available
+    	<br>
+    	Map: Grace Manthey/ABC7 &#9679; Source: California Department of Water Resources
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+	<script src="data/wateruses.json"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->

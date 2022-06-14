@@ -1,0 +1,374 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+
+*/
+
+
+@font-face {
+  font-family: GothamBold;
+  src: url(../gothambold/Gotham-Bold.ttf);
+}
+
+@font-face {
+  font-family: GothamBook;
+  src: url(../gothambook/Gotham-Book.otf);
+}
+
+img {
+   width: 100%;
+}
+
+
+
+.title {
+    font-size: 20px;
+    left: 3%;
+    top: 1%;
+    text-align: left;
+    max-width: 1000px;
+   margin: auto;
+    
+}
+
+.headline {
+   font-weight: bold;
+   font-size:40px;
+   margin-bottom: 8px; 
+   background: rgb(0,88,240);
+   background: linear-gradient(90deg, rgba(0,88,240,1) 0%, rgba(0,84,231,1) 53%, rgba(0,49,139,0) 100%);
+   color: white; 
+   padding: 0px 5px;
+   border-left: 4px solid #ffba00;
+   width: 85%;
+   padding: 10px;
+   padding-right: 8%;
+   font-family: GothamBold;
+
+}
+
+.subheadline {
+   margin: 0px; 
+   margin-top: 10px; 
+   font-size: 20px;
+   color: black; 
+   padding: 0px 5px;
+   font-family: GothamBold;
+   max-width: 1000px;
+   margin: auto;
+}
+
+.container {
+   max-width: 900px;
+   margin: auto;
+}
+
+.chatter {
+   font-family: GothamBook;
+   padding: 0px 5px;
+   max-width: 1000px;
+   margin: auto;
+}
+
+.emph {
+   font-weight: bold;
+   font-family: GothamBold;
+}
+
+
+.graphics {
+   width: 100%;
+}
+
+.map {
+   max-width: 500px;
+   position: relative;
+   padding: 20px 0px;
+   /*border: 2px solid purple;*/
+}
+
+.labels {
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   /*border: 2px solid pink;  */
+   height: 0px;
+   padding-bottom: 116%;
+}
+
+.region {
+   cursor: pointer;
+   color: #99a0a5;
+   font-family: GothamBook;
+   position: absolute;
+   font-size: 15px;
+   width: 30%;
+   text-align: center;
+}
+
+.region:hover {
+   text-shadow: 0px 0px 5px darkgrey;
+   text-decoration: underline;
+}
+
+.backtoca {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   color: #99a0a5;
+   font-family: GothamBook;
+   font-size: 15px;
+   cursor: pointer;
+   width: 40%;
+}
+
+.backtoca:hover {
+   text-shadow: 0px 0px 5px darkgrey;
+   text-decoration: underline;
+}
+
+#CentralCoast {
+   top: 65%;
+   left: 11%;
+}
+
+#ColoradoRiver {
+   top: 78%;
+   left: 75%;
+   width: 20%;
+}
+
+#NorthCoast {
+   top: 4%;
+   left: 1%;
+}
+
+#NorthLahontan {
+   top: 16%;
+   left: 31%;
+}
+
+#SacramentoRiver {
+   top: 23%;
+   left: 12%;
+}
+
+#SanFranciscoBay {
+   top: 44%;
+   left: 0%;
+}
+
+#SanJoaquinRiver {
+   top: 47%;
+   left: 27%;
+}
+
+#SouthCoast {
+   top: 85%;
+   left: 44%;
+}
+
+#SouthLahontan {
+   top: 63%;
+   left: 61%;
+}
+
+#TulareLake {
+   top: 58%;
+   left: 32%;
+}
+
+.chart {
+   position: fixed;
+   top: 30%;
+   right: 10%;
+   max-width: 500px;
+   text-align: center;
+   font-family: GothamBold;
+   text-transform: uppercase;
+   box-shadow: 0px 0px 5px grey;
+   background-color: white;
+   display: none;
+}
+
+.chart-title {
+   padding: 8px 18px;
+}
+
+.chart-title p {
+   font-family: GothamBook;
+   font-size: 12px;
+}
+
+
+.responsive {
+   width: 90%;
+   height: 0px;
+   padding-bottom: 90%;
+   position: relative;
+}
+
+iframe {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%; 
+}
+
+.x {
+   width: 30px;
+   position: fixed;
+   top: 30%;
+   right: 10%;
+   cursor: pointer;
+}
+
+.source {
+   font-size: 10px;
+   font-style: italic;
+   font-family: GothamBook;
+   max-width: 1000px;
+   margin: auto;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+
+   .headline {
+      font-size: 25px
+   }
+
+   .subheadline {
+      font-size: 15px;
+   }
+
+
+
+   .chatter {
+      font-size: 14px;
+   }
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+
+   .chart {
+      top: 27%;
+      right: 7%;
+   }
+
+   .x {
+      top: 27%;
+      right: 7%;
+   }
+
+}
+  
+
+
+@media only screen and (max-width: 500px) {
+
+   .chatter {
+      font-size: 12px;
+   }
+
+   .map {
+      width: 100%;
+      padding-right: 0px;
+   }
+
+   .chart {
+      top: 30%;
+      right: 0%;
+   }
+
+   .x {
+      top: 30%;
+      right: 0%;
+   }
+
+/*   .responsive iframe{
+      left: -5%;
+   }*/
+
+   .region, .backtoca {
+      font-size: 13px;
+   }
+
+   #CentralCoast {
+      top: 65%;
+      left: 15%;
+   }
+
+   #ColoradoRiver {
+      top: 80%;
+      left: 76%;
+   }
+
+   #NorthCoast {
+      top: 5%;
+      left: 0%;
+   }
+
+   #NorthLahontan {
+      top: 16%;
+      left: 30%;
+   }
+
+   #SacramentoRiver {
+      top: 23%;
+      left: 12%;
+   }
+
+   #SanFranciscoBay {
+      top: 43%;
+      left: 0%;
+   }
+
+   #SanJoaquinRiver {
+      top: 47%;
+      left: 24%;
+   }
+
+   #SouthCoast {
+      top: 85%;
+      left: 46%;
+   }
+
+   #SouthLahontan {
+      top: 60%;
+      left: 58%;
+   }
+
+   #TulareLake {
+      top: 62%;
+      left: 32%;
+   }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+wateruses = [{"Area":"Central Coast","AreaNoSpace":"CentralCoast","Thousand_Acre_Feet":1400,"Majority_Use":"agriculture","Pct_Majority_of_total":75.68702082},
+{"Area":"Colorado River","AreaNoSpace":"ColoradoRiver","Thousand_Acre_Feet":4600,"Majority_Use":"agriculture","Pct_Majority_of_total":88.83691219},
+{"Area":"North Coast","AreaNoSpace":"NorthCoast","Thousand_Acre_Feet":17600,"Majority_Use":"environmental uses","Pct_Majority_of_total":94.5416602},
+{"Area":"North Lahontan","AreaNoSpace":"NorthLahontan","Thousand_Acre_Feet":740,"Majority_Use":"agriculture","Pct_Majority_of_total":53.81622147},
+{"Area":"Sacramento River","AreaNoSpace":"SacramentoRiver","Thousand_Acre_Feet":21000,"Majority_Use":"environmental uses","Pct_Majority_of_total":58.61379237},
+{"Area":"San Francisco Bay","AreaNoSpace":"SanFranciscoBay","Thousand_Acre_Feet":1400,"Majority_Use":"urban uses","Pct_Majority_of_total":84.59200424},
+{"Area":"San Joaquin River","AreaNoSpace":"SanJoaquinRiver","Thousand_Acre_Feet":11000,"Majority_Use":"agriculture","Pct_Majority_of_total":69.42949016},
+{"Area":"South Coast","AreaNoSpace":"SouthCoast","Thousand_Acre_Feet":4600,"Majority_Use":"urban uses","Pct_Majority_of_total":81.7475253},
+{"Area":"South Lahontan","AreaNoSpace":"SouthLahontan","Thousand_Acre_Feet":690,"Majority_Use":"agriculture","Pct_Majority_of_total":53.63184368},
+{"Area":"Tulare Lake","AreaNoSpace":"TulareLake","Thousand_Acre_Feet":13000,"Majority_Use":"agriculture","Pct_Majority_of_total":85.99023263},
+{"Area":"California","AreaNoSpace":"California","Thousand_Acre_Feet":76000,"Majority_Use":"agriculture","Pct_Majority_of_total":45}]
